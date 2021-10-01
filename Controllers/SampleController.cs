@@ -9,6 +9,7 @@ using WebApplication1.Model;
 namespace WebApplication1.Controllers
 {
     [Route("api/[controller]")]
+
     [ApiController]
     public class SampleController : ControllerBase
     {
@@ -22,11 +23,19 @@ namespace WebApplication1.Controllers
         };
 
         [HttpGet]
-        public ActionResult<IEnumerable<Details>> GetAllDetails()
-        {
 
-            return details;
+        public ActionResult<Details> GetAllDetails( )
+        {
+            string name = "harika";
+            var found = details.FirstOrDefault(x => x.Name == name);
+            if (found == null)
+            {
+                return NotFound();
+            }
+
+            return found;
         }
+
         [HttpGet("{name}")]
         public ActionResult<Details> GetDetails(string name)
         {
