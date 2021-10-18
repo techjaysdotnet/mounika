@@ -20,3 +20,14 @@ C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\obj\Debug\net5.0
 C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\obj\Debug\net5.0\ref\WebApplication1.dll
 C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.pdb
 C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.genruntimeconfig.cache
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.csproj.CopyComplete
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Mounika R\source\repos\WebApplication1\WebApplication1\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

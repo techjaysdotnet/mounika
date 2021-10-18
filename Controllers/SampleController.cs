@@ -3,14 +3,18 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.SqlClient;
 using System.Threading.Tasks;
 using WebApplication1.Model;
 
 namespace WebApplication1.Controllers
+  
 {
     [Route("api/[controller]")]
 
     [ApiController]
+
+    
     public class SampleController : ControllerBase
     {
         public List<Details> details = new List<Details>()
@@ -24,7 +28,7 @@ namespace WebApplication1.Controllers
 
         [HttpGet]
 
-        public ActionResult<Details> GetAllDetails( )
+        public ActionResult<Details> GetAllDetails()
         {
             string name = "harika";
             var found = details.FirstOrDefault(x => x.Name == name);
@@ -46,6 +50,13 @@ namespace WebApplication1.Controllers
             }
             return detail;
             
+        }
+
+        [HttpPost]
+        public void Post(Details details)
+        
+            {
+            Console.WriteLine("name", details);
         }
     }
 }
